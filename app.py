@@ -155,4 +155,4 @@ def sendWhatsapp(phon_no_id,from_user,texto_resposta):
             
         
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug = True, port=8001)
